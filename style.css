@@ -5,12 +5,10 @@ body{
     padding-left: 0px;
     padding-right: 0px;
 }
-
 header{
     margin-top: 25px;
     margin-bottom: 60px;
 }
-
 a{
     margin: 3px;
      color: inherit; 
@@ -18,14 +16,11 @@ a{
 a:hover{
     color: #9D60EB
 }
-
 a:link
 {
-text-decoration:none;
-margin: 13px;
-
+    text-decoration:none;
+    margin: 13px;
 }
-
 p , span{
     font-size: 14px;
     margin-top: 33px;
@@ -35,13 +30,11 @@ h1{
     font-weight: 600;
 }
 h2{
-    font-weight: 400;
-    
+    font-weight: 400;    
 }
 h3{
     font-weight: 500;
     font-size: 16px !important;    
-    
 }
 ul{
     list-style-type: none;
@@ -59,13 +52,11 @@ li{
 .logo img{
     margin: 0 auto;
 }
-
 .menu{
     text-align: center;
     margin-top: 10px;
     color: #7d7d7d;
 }
-
 .search{
     background-color:white;
     color: #9D60EB;
@@ -97,7 +88,6 @@ li{
     text-align: center;
     margin-top: 120px;
 }
-
 .colorbutton{    
     border: none;
     border-radius: 5px;
@@ -118,24 +108,20 @@ li{
     border-radius: 6px;
     border-style: solid;
 }
-
 .buttons{
     margin-top: 44px;
 }
-
 #img-header{
     background-image:  url(img/Retângulo\ 365.svg);
     background-position: bottom;
     background-repeat: no-repeat;
 }
-
 #process{
     margin-top: 145px;
 }
 #help{
     margin-top: 80px;
 }
-
 #intouch{
     background-color: rgb(218, 236, 252);
     padding-bottom: 40px;
@@ -149,16 +135,14 @@ li{
     outline: none;
     border: none;
     border-bottom-style: inset;
-    display: block;     
-
+    display: block;   
 }
 .input-wrapper{
     color: black;
     display: block;
     background: transparent;
     padding: 0 5px;
-    margin: 10px 40px 35px;
-    
+    margin: 10px 40px 35px;    
 }
 #form{
     padding-top: 33px;
@@ -175,7 +159,6 @@ li{
     border-bottom-style: inset;
     display: block; 
     color: #7d7d7d;
-
 }
 select, textarea{
     width: 100%;
@@ -185,9 +168,7 @@ select, textarea{
     border-bottom-style: inset;
     display: block; 
     color: #7d7d7d;
-
 }
-
 #img1{
     position: absolute;
     left: 953px;
@@ -233,7 +214,6 @@ select, textarea{
     float: left;
     margin-right: 10px;
 }
-
 .social{
     border-radius: 15px;
     -webkit-box-pack: center;
@@ -271,7 +251,7 @@ select, textarea{
     left: 55px;
 }
 
-
+/* Inicio Mobile */
 
 @media only screen and (max-width: 600px){
 .container-fluid {
@@ -327,3 +307,4 @@ li {
     left: 11px;
 }
 }
+/* End Mobile */
