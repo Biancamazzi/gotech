@@ -1,3 +1,3 @@
 # Gotech
 
-#Website about Gotech made with HTML and CSS
+Website about Gotech made with HTML and CSS
