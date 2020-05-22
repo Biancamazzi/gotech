@@ -171,13 +171,13 @@ select, textarea{
 }
 #img1{
     position: absolute;
-    left: 929px;
+    left: 1126px;
     top: 2286px;
     z-index: 0;
 }
 #img2{
     position: absolute;
-    left: 1158px;
+    left: 1358px;
     top: 2281px;
     z-index: 2;
 }
@@ -189,13 +189,13 @@ select, textarea{
 }
 #img4{
     position: absolute;
-    left: 1038px;
+    left: 1225px;
     top: 2484px;
     z-index: 2;
 }
 #img5{
     position: absolute;
-    left: 1188px;
+    left: 1373px;
     top: 2469px;
     z-index: 2;
 }
