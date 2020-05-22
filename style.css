@@ -26,38 +26,53 @@ p , span{
     margin-top: 33px;
     color: #7d7d7d;
 }
-p  {
-    animation-duration: 1s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
+/* Start animate */
+@keyframes fade {
     from {
-      margin-left: 100%;
-      width: 300%; 
+        opacity: 0; 
     }
-  
+
     to {
-      margin-left: 0%;
-      width: 100%;
+        opacity: 1;
     }
-  }
-h1{
-    font-weight: 600;
 }
-h2{
-    font-weight: 400;    
+@keyframes fadeAndSlide {
+    from {
+        top:-10px;
+        opacity: 0; 
+    }
+
+    to {
+        top:0px;
+        opacity: 1;
+    }
 }
-h3{
-    font-weight: 500;
-    font-size: 16px !important;    
+#Objective .buttons button {
+    animation-duration: 1s;
+    animation-name: fade;
+    opacity: 0;
+    animation-delay: 0.75s;
+    -webkit-animation-fill-mode: forwards; /* Chrome 16+, Safari 4+ */
+    -moz-animation-fill-mode: forwards;    /* FF 5+ */
+    -o-animation-fill-mode: forwards;      /* Not implemented yet */
+    -ms-animation-fill-mode: forwards;     /* IE 10+ */
+    animation-fill-mode: forwards;         /* When the spec is finished */
 }
-ul{
-    list-style-type: none;
-    margin-left: -51px;
+
+#Objective h1, #Objective h2, #header-paragraph  {
+    position: relative;
+    animation-duration: 1s;
+    animation-name: fadeAndSlide;
+    -webkit-animation-fill-mode: forwards; /* Chrome 16+, Safari 4+ */
+    -moz-animation-fill-mode: forwards;    /* FF 5+ */
+    -o-animation-fill-mode: forwards;      /* Not implemented yet */
+    -ms-animation-fill-mode: forwards;     /* IE 10+ */
+    animation-fill-mode: forwards;         /* When the spec is finished */
 }
-li{
-    margin-bottom: 10px;
+
+#header-paragraph  {
+    opacity: 0;
+    animation-delay: 0.25s;
 }
 .pulse {
     animation: pulse 0.7s infinite;
@@ -90,6 +105,26 @@ li{
       filter: brightness(100%);
     }
   }
+/* End animate */
+  
+h1{
+    font-weight: 600;
+}
+h2{
+    font-weight: 400;    
+}
+h3{
+    font-weight: 500;
+    font-size: 16px !important;    
+}
+ul{
+    list-style-type: none;
+    margin-left: -51px;
+}
+li{
+    margin-bottom: 10px;
+}
+
 .row{
     justify-content: center;
 }
