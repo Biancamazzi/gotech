@@ -171,31 +171,31 @@ select, textarea{
 }
 #img1{
     position: absolute;
-    left: 953px;
+    left: 929px;
     top: 2286px;
     z-index: 0;
 }
 #img2{
     position: absolute;
-    left: 1183px;
+    left: 1158px;
     top: 2281px;
     z-index: 2;
 }
 #img3{
     position: absolute;
     left: -6px;
-    top: 2499px;
+    top: 2471px;
     z-index: 2;
 }
 #img4{
     position: absolute;
-    left: 1074px;
+    left: 1038px;
     top: 2484px;
     z-index: 2;
 }
 #img5{
     position: absolute;
-    left: 1229px;
+    left: 1188px;
     top: 2469px;
     z-index: 2;
 }
