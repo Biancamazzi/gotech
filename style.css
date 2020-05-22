@@ -169,8 +169,15 @@ li{
 }
 #form form input {
     width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom-style: inset;
+    display: block; 
+    color: #7d7d7d;
+
 }
-select{
+select, textarea{
     width: 100%;
     background: transparent;
     outline: none;
@@ -180,9 +187,7 @@ select{
     color: #7d7d7d;
 
 }
-textarea{
-    width: 100%;
-}
+
 #img1{
     position: absolute;
     left: 953px;
@@ -220,6 +225,9 @@ textarea{
 #logo{
     text-align: center;
     margin: 50px 0px 50px;
+}
+.end{
+    margin: 0 auto;
 }
 .icon{
     float: left;
@@ -266,8 +274,12 @@ textarea{
 
 
 @media only screen and (max-width: 600px){
+.container-fluid {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 img{
-    width: 100%;
+    width: 90%;
 }
 .logo {
      margin-left: 0px;
@@ -285,13 +297,18 @@ a{
     margin: 2px;
 }
 .contact{
-    margin-left: 10px;
+    margin-left: 111px;
+    margin-top: 38px;
+    width: 140px;
 }
 #Objective{
     margin-top: 0px;
 }
 #process {
     margin-top: 10px;
+}
+#intouch{
+    margin-top: 0px;
 }
 #form{
     margin:0px;
