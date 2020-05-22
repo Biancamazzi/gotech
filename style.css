@@ -1,0 +1,311 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+header{
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+a{
+    margin: 3px;
+     color: inherit; 
+}
+a:hover{
+    color: #9D60EB
+}
+
+a:link
+{
+text-decoration:none;
+margin: 13px;
+
+}
+
+p , span{
+    font-size: 14px;
+    margin-top: 33px;
+    color: #7d7d7d;
+}
+h1{
+    font-weight: 600;
+}
+h2{
+    font-weight: 400;
+    
+}
+h3{
+    font-weight: 500;
+    font-size: 16px !important;    
+    
+}
+ul{
+    list-style-type: none;
+    margin-left: -51px;
+}
+li{
+    margin-bottom: 10px;
+}
+.row{
+    justify-content: center;
+}
+.logo{
+    margin-left: 77px;
+}
+.logo img{
+    margin: 0 auto;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 10px;
+    color: #7d7d7d;
+}
+
+.search{
+    background-color:white;
+    color: #9D60EB;
+    border-color: rgb(211, 191, 236);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border-style: solid;
+    height: 40px;
+    width: 253px;
+}
+.fa{
+    position: relative;
+    top: -32px;
+    left: 211px;
+    color:  rgb(211, 191, 236);
+}
+.contact{    
+    background-image: url(img/Caminho\ 9704.svg);
+    width: 104px;
+    height: 40px;
+    color: white;
+    border-radius: 3px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 0px;
+}
+#Objective{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.colorbutton{    
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 40px;
+    background: rgb(99,98,215);
+    background: linear-gradient(90deg, rgba(99,98,215,1) 2%, rgba(181,122,221,1) 100%, rgba(255,143,226,1) 100%);
+ } 
+.button{
+    background-color:white;
+    color: #9D60EB;
+    border-color: #9D60EB;
+    padding: 12px 30px;
+    text-align: center;
+    border-radius: 6px;
+    border-style: solid;
+}
+
+.buttons{
+    margin-top: 44px;
+}
+
+#img-header{
+    background-image:  url(img/Retângulo\ 365.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#process{
+    margin-top: 145px;
+}
+#help{
+    margin-top: 80px;
+}
+
+#intouch{
+    background-color: rgb(218, 236, 252);
+    padding-bottom: 40px;
+    padding-top: 50px;
+    margin-top: 118px;
+}
+#form-header{
+    text-align: center;
+}
+.input-wrapper input, textarea{
+    outline: none;
+    border: none;
+    border-bottom-style: inset;
+    display: block;     
+
+}
+.input-wrapper{
+    color: black;
+    display: block;
+    background: transparent;
+    padding: 0 5px;
+    margin: 10px 40px 35px;
+    
+}
+#form{
+    padding-top: 33px;
+    background-color: white;
+    margin: 35px 240px 10px;
+    position: relative;
+    z-index: 1;
+}
+#form form input {
+    width: 100%;
+}
+select{
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom-style: inset;
+    display: block; 
+    color: #7d7d7d;
+
+}
+textarea{
+    width: 100%;
+}
+#img1{
+    position: absolute;
+    left: 953px;
+    top: 2286px;
+    z-index: 0;
+}
+#img2{
+    position: absolute;
+    left: 1183px;
+    top: 2281px;
+    z-index: 2;
+}
+#img3{
+    position: absolute;
+    left: 10px;
+    top: 2499px;
+    z-index: 2;
+}
+#img4{
+    position: absolute;
+    left: 1043px;
+    top: 2484px;
+    z-index: 2;
+}
+#img5{
+    position: absolute;
+    left: 1205px;
+    top: 2469px;
+    z-index: 2;
+}
+#save{
+    margin-left: 39px;
+    margin-bottom: 48px;
+}
+#logo{
+    text-align: center;
+    margin: 50px 0px 50px;
+}
+.icon{
+    float: left;
+    margin-right: 10px;
+}
+
+.social{
+    border-radius: 15px;
+    -webkit-box-pack: center;
+    width: 39px;
+    height: 36px;
+    display: -webkit-inline-box;
+    padding-top: 6px;
+}
+#facebook{
+    background: linear-gradient(90deg, rgba(99,98,215,1) 2%, rgba(181,122,221,1) 100%, rgba(255,143,226,1) 100%) !important;
+}
+#skype{
+    background: #68D58C;
+}
+#linkedin{
+    background: #F03295;
+}
+#instagram{
+    background: linear-gradient(90deg, rgba(240,147,118,1) 57%, rgba(240,183,120,1) 86%);
+
+}
+#footer{
+    background-image: url(img/Caminho\ 11390.svg);
+    text-align-last: center;
+}
+#img7{
+    position: absolute;
+    top: 67px;
+}
+#credits{
+    text-decoration: underline;
+    color: #7d7d7d;
+    position: absolute;
+    top: 129px;
+    left: 55px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+img{
+    width: 100%;
+}
+.logo {
+     margin-left: 0px;
+}
+.search{
+    margin: 14px 10px
+}
+.fa{
+    display: none !important;
+}
+a:link {    
+     margin: 2px;
+}
+a{
+    margin: 2px;
+}
+.contact{
+    margin-left: 10px;
+}
+#Objective{
+    margin-top: 0px;
+}
+#process {
+    margin-top: 10px;
+}
+#form{
+    margin:0px;
+    background-color: transparent;
+}
+#logo{
+    margin: 5px;
+}
+li {
+    margin-left: 10px;
+}
+#credits{
+    position: absolute;
+    top: 21px;
+    left: 11px;
+}
+}
